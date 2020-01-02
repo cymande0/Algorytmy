@@ -67,7 +67,7 @@ public:
         do{
             int wylosowana_liczba =( std::rand() % kost) + 1;
             cout << "Wylosowano: " << wylosowana_liczba << endl;
-            cout << "Aby zakonczyc wcisnij 'q'" << endl;
+            cout << "Aby zakonczyc wcisnij 'q'." << endl;
             cin >> znak;
         } while(znak.compare("q") && znak.compare("Q"));
     }

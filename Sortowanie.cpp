@@ -161,7 +161,6 @@ class Sortowanie{
             stop: arr[i] = x;
         }
 
-
         //8. Sortowanie stogowe
         int* sortowanieStogowe(int* arr, int n){
 

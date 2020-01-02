@@ -4,6 +4,7 @@
 using namespace std;
 class Fibonacci {
 public:
+
 	void fibo() {
 		long a, b, c;
 		string i, liczba, word;
